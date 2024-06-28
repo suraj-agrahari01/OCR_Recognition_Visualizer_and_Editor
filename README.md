@@ -2,6 +2,28 @@
 
 This project is an Easy OCR Recognition System designed and developed by Crimson Tech. The system includes a login window for authentication and an image annotation viewer for reviewing and annotating images.
 
+## System OverView
+
+| ![image](https://github.com/suraj-agrahari01/OCR_Recognition_Visualizer_and_Editor/assets/138669672/5f0b91ff-0495-4b3f-a3aa-ddde60dac9d9) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                            _Fig : Login Image_                                                            |
+
+| ![image](https://github.com/suraj-agrahari01/OCR_Recognition_Visualizer_and_Editor/assets/138669672/28008aff-5359-4a19-9cfd-2bf2a04c0a51) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                             _Fig : Home Page_                                                             |
+
+| ![image](https://github.com/suraj-agrahari01/OCR_Recognition_Visualizer_and_Editor/assets/138669672/b9b9b147-0b29-48db-bc35-9a2a40409c20) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                    _Fig : Imort, zoom-out and zoom-in_                                                    |
+
+| ![image](https://github.com/suraj-agrahari01/OCR_Recognition_Visualizer_and_Editor/assets/138669672/9a0c9043-9fd2-4baa-82c8-162d4a920d9d) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                _Fig : Rotation and dark mode intergaretd_                                                 |
+
+| ![image](https://github.com/suraj-agrahari01/OCR_Recognition_Visualizer_and_Editor/assets/138669672/9028673e-525a-41f7-8b7d-be213c9861aa) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                             _Fig : Jump to page number , save iamge and txt _                                             |
+
 ## Features
 
 ### Login Authentication:
