@@ -68,7 +68,13 @@ easy-ocr-recognition/
 ├── easy_recotation.py     #script
 ├── main_logo.png         # Logo image used in the login window
 ├── README.md             # This README file
-└── main_logo.png         #logo
+└── test                  #input folder
+    └── images
+         └── saved
+         └── images.jpg
+    └── labels_new.txt
+    └── labels.txt
+
 
 ```
 
