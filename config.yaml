@@ -1,0 +1,5 @@
+input_image_folder: 'try\images' # select image path
+label_path: 'try' #put lable path insiee the main folder
+
+generate_label_file: 'test/labels.txt'
+export_output: 'output'

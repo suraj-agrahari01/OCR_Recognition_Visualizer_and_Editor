@@ -10,7 +10,6 @@ from PyQt5.QtGui import QPixmap, QFont
 from login import LoginWindow
 
 
-
 class ImageAnnotationViewer(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -172,11 +171,26 @@ class ImageAnnotationViewer(QMainWindow):
                 with open(self.updated_label_file, 'w') as file:
                     for label in self.labels:
                         file.write('\t'.join(label) + '\n')
+
                 QMessageBox.information(
                     self, "Success", "Labels saved successfully.")
             except Exception as e:
                 QMessageBox.warning(
                     self, "Error", f"Failed to save labels: {e}")
+
+    # def save_labels(self):
+    #     if self.updated_label_file:
+    #         try:
+    #             with open(self.updated_label_file, 'w') as file:
+    #                 for label in self.labels:
+    #                     # Assuming label is a list with two elements
+    #                     formatted_label = f"{label[0]},\"{label[1]}\"\n"
+    #                     file.write(formatted_label)
+    #             QMessageBox.information(
+    #                 self, "Success", "Labels saved successfully.")
+    #         except Exception as e:
+    #             QMessageBox.warning(
+    #                 self, "Error", f"Failed to save labels: {e}")
 
     def load_images(self):
         if self.image_dir:
@@ -345,9 +359,13 @@ class ImageAnnotationViewer(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
 
-    # Show the login window first
-    login_window = LoginWindow()
-    if login_window.exec_() == QDialog.Accepted:
-        viewer = ImageAnnotationViewer()
-        viewer.show()
-        sys.exit(app.exec_())
+    viewer = ImageAnnotationViewer()
+    viewer.show()
+    sys.exit(app.exec_())
+
+    # # Show the login window first
+    # login_window = LoginWindow()
+    # if login_window.exec_() == QDialog.Accepted:
+    #     viewer = ImageAnnotationViewer()
+    #     viewer.show()
+    #     sys.exit(app.exec_())

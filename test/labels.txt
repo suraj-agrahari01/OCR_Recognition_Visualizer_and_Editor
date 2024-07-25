@@ -90,7 +90,3 @@ image_72.jpg 	## 100 GM
 image_115.jpg 	* Rs.50/-
 image_126.jpg 	## 100 GM
 image_141.jpg 	## 100 GM
-image_380.jpg 	# 10/10/23 B 2
-image_13.jpg 	* Rs.50/-
-image_58.jpg 	* Rs.50/-
-image_328.jpg 	* Rs.50/-
