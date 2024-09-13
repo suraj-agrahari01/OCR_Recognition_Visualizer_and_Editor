@@ -58,7 +58,7 @@ Ensure you have PyQt5 and PIL installed.
 ### Run the Application:
 
 ```bash
-python main.py
+python login_easy_ocr.py
 
 ```
 
